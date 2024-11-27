@@ -143,6 +143,12 @@ margin: 15px;
 }
 
 @media (max-width: 600px) {
+	.cart-bg:before, .cart-bg:after {
+		background: none;
+	}
+	.palaces-subtext:before {
+		bottom: -50%;
+	}
 	.places-row:after {
 		left: 0;
 		bottom: -80px;
