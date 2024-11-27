@@ -1,0 +1,174 @@
+@media (max-width: 1200px) {
+	header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 2222;
+		height: auto;
+		padding: 7px 0;
+		background-color: #fff;
+	}
+	.dn {
+		display: none;
+	}
+	h1 {
+		font-size: clamp(3.5rem, 3.0739rem + 2.2727vw, 5.0625rem);
+	}
+	
+	.places-top h2 {
+		font-size: clamp(2.5rem, 1.5114rem + 5.2727vw, 6.125rem);
+	}
+	.cart {
+		padding: 0;
+		padding-top: 90px;
+	}
+	.places-top h2:after {
+		top: -100px;
+		left: 47%;
+	}
+	
+	.what-bg-top {
+		display: none;
+	}
+	.pla-content {
+		margin-bottom: 0;
+	}
+	.what-content h1 {
+		margin-top: 70px;
+	}
+	.places-top {
+		margin-top: 150px;
+		margin-bottom: 100px;
+	}
+	.places-box {
+		margin-bottom: 20px;
+	}
+	.Choose-img {
+		margin-top: 40px;
+	}
+	.intro-box button, .intro-img {
+		margin-top: 20px;
+	}
+	.intro-bg:before, .intro-bg:after  {
+		z-index: -1;
+	}
+	.create-bg:before, .create-bg:after {
+		background-image: none;
+	}
+	.burger {
+		padding-left: 15px;
+		display: block;
+	}
+	.intro-poz {
+		margin-top: 60px;
+	}
+	.menu {
+		transition: ease-in-out .2s;
+		background-color: #fff;
+		position: fixed;
+		left: 0;
+		height: 100%;
+		left: -120%;
+	}
+	.menu ul>li+li {
+		margin-left: 0;
+		
+	}
+	.menu ul>li {
+		margin-bottom: 30px;
+	}
+	.menu ul {
+		padding-left: 20px;
+		padding-right: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.menu.open {
+		left: 0;
+	}
+.intro, .cart, .places-bottom, .Choose-box, .info-content, .pla-content, .foot-text{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.foot-text {
+    justify-content: flex-start;
+}
+.foot-links nav ul {
+    grid-template-columns: 1fr 1fr;
+}
+.container {
+    padding: 0 15px;
+}
+
+.canteiner {
+	padding: 0;
+}
+.cart-box {
+margin: 15px;
+}
+.pla-right {
+	margin: 40px 0;
+}
+.pla-right img  {
+ object-fit: cover;
+ width: 100%;
+ height: auto;
+}
+.Choose-img img {
+    width: 100%;
+}
+.foot-links {
+    padding-left: 0;
+}
+.Choose-left {
+    margin-left: 0;
+}
+.menu {
+    padding: 20px 0;
+}
+.pla-left {
+	margin-right: 0;
+}
+.wrapper {
+	padding: 0;
+}
+.foot-left h1, .foot-links p  {
+	margin-top: 30px;
+}
+.foot-block {
+	padding: 0 15px;
+}
+}
+
+@media (max-width: 600px) {
+	.places-row:after {
+		left: 0;
+		bottom: -80px;
+	}
+	.Choose-block {
+		margin-top: 50px;
+	}
+	.flex-column {
+		flex-direction: column;
+	}
+	.places-box>.places-boX+.places-boX {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.info-text {
+		margin-left: 10px;
+	}
+    .pla-button {
+        padding: 22px 0;
+        max-width: 400px;
+        width: 100%;
+    }
+    .pla-content {
+        margin-bottom: 0;
+    }
+    .info-left {
+        height: auto;
+    }
+}
